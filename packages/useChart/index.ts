@@ -2,8 +2,8 @@ import * as echarts from 'echarts';
 import { onBeforeUnmount, ref, markRaw } from 'vue';
 
 /**
- * @description echarts hook
- * @param {any} element:HTMLElement
+ * Description echarts hook
+ * @param {any} domId:string
  * @returns {any}
  */
 export const useChart = (domId: string): any => {
